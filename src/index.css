@@ -1,0 +1,84 @@
+/* 📌 기본 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 0;
+  }
+
+/* 📌 전체 컨테이너 (반응형 적용) */
+.container {
+max-width: 100%;
+width: 90%;
+margin: 20px auto;
+background: white;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 📌 입력 필드 기본 스타일 */
+input, select {
+  padding: 12px;
+  margin-top: 5px;
+  margin-right: 10px;
+  border: none; /* 테두리 제거 */
+  border-radius: 8px; /* 둥글게 */
+  font-size: 16px;
+  background-color: #f4f4f4; /* 연한 회색 배경 */
+  transition: all 0.3s ease-in-out;
+}
+
+/* 📌 입력 필드 포커스 효과 */
+input:focus, select:focus {
+  background-color: #ffffff; /* 포커스 시 흰색 배경 */
+  box-shadow: 0 0 5px rgba(0, 150, 255, 0.4); /* 부드러운 블루 하이라이트 */
+  outline: none;
+}
+
+
+/* 📌 기본 버튼 스타일 */
+.button {
+background-color: #4CAF50; /* 녹색 (Primary Color) */
+color: white;
+border: none;
+padding: 12px 20px;
+font-size: 16px;
+font-weight: bold;
+border-radius: 8px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+display: inline-block;
+text-align: center;
+}
+
+/* 📌 버튼 호버 효과 */
+.button:hover {
+background-color: #45a049;
+}
+
+/* 📌 버튼 클릭 시 */
+.button:active {
+transform: scale(0.98);
+}
+
+/* 📌 비활성화된 버튼 */
+.button:disabled {
+background-color: #ddd;
+color: #666;
+cursor: not-allowed;
+}
+
+
+/* 📌 반응형 스타일 추가 */
+@media (max-width: 400px) {
+.container {
+    width: 90%;
+    padding: 15px;
+}
+
+input, select {
+    font-size: 16px;
+    padding: 8px;
+}
+}
