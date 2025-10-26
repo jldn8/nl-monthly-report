@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nl-monthly-report/static/css/main.7a92d42f.css",
+    "main.js": "/nl-monthly-report/static/js/main.ec47923f.js",
+    "static/js/488.7af3b79a.chunk.js": "/nl-monthly-report/static/js/488.7af3b79a.chunk.js",
+    "index.html": "/nl-monthly-report/index.html",
+    "main.7a92d42f.css.map": "/nl-monthly-report/static/css/main.7a92d42f.css.map",
+    "main.ec47923f.js.map": "/nl-monthly-report/static/js/main.ec47923f.js.map",
+    "488.7af3b79a.chunk.js.map": "/nl-monthly-report/static/js/488.7af3b79a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a92d42f.css",
+    "static/js/main.ec47923f.js"
+  ]
+}
